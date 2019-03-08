@@ -1,5 +1,3 @@
 SELECT `Windows_Hosts`.`Hostname`, `Windows_Hosts`.`IP` FROM `Windows_Hosts` WHERE (`Windows_Hosts`.`Activated` = 'no');
 SELECT `Windows_Hosts`.`Hostname`, `Windows_Hosts`.`ID`, `Windows_Hosts`.`IP` FROM `Windows_Hosts` WHERE `Windows_Hosts`.`Hostname` RLIKE 'Workstation';
-SELECT `ESXi_Hosts`.`HOSTNAME`, `ESXi_Hosts`.`ID`, `ESXi_Hosts`.`IP`
-FROM `ESXi_Hosts`
-WHERE (`ESXi_Hosts`.`HOSTNAME` ="CURRICULUM")
+SELECT `ESXi_Hosts`.`HOSTNAME`, `ESXi_Hosts`.`ID`, `ESXi_Hosts`.`IP` FROM `ESXi_Hosts` WHERE (`ESXi_Hosts`.`HOSTNAME` ="CURRICULUM");
